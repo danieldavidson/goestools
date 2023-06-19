@@ -5,6 +5,7 @@
 #include <util/error.h>
 
 #include "vcdu.h"
+#include <cstdint>
 
 int main(int argc, char** argv) {
   std::ifstream f(argv[1]);
